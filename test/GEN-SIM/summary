@@ -1,0 +1,63 @@
+
+ ==============================================================================
+ I                                  I                            I            I
+ I            Subprocess            I      Number of points      I    Sigma   I
+ I                                  I                            I            I
+ I----------------------------------I----------------------------I    (mb)    I
+ I                                  I                            I            I
+ I N:o Type                         I    Generated         Tried I            I
+ I                                  I                            I            I
+ ==============================================================================
+ I                                  I                            I            I
+ I   0 All included subprocesses    I       100000        782104 I  2.315D-01 I
+ I  81 q + qbar -> Q + Qbar, mass   I         1506          6109 I  3.532D-03 I
+ I  82 g + g -> Q + Qbar, massive   I        98494        775995 I  2.279D-01 I
+ I                                  I                            I            I
+ ==============================================================================
+
+ ********* Total number of errors, excluding junctions =       50 *************
+ ********* Total number of errors, including junctions =       97 *************
+ ********* Total number of warnings =                        1199 *************
+ ********* Fraction of events that fail fragmentation cuts =  0.00101 *********
+
+1********* PYSTAT:  Statistics on Number of Events and Cross-sections *********
+
+ ==============================================================================
+ I                                  I                            I            I
+ I            Subprocess            I      Number of points      I    Sigma   I
+ I                                  I                            I            I
+ I----------------------------------I----------------------------I    (mb)    I
+ I                                  I                            I            I
+ I N:o Type                         I    Generated         Tried I            I
+ I                                  I                            I            I
+ ==============================================================================
+ I                                  I                            I            I
+ I   0 All included subprocesses    I       100000        782104 I  2.315D-01 I
+ I  81 q + qbar -> Q + Qbar, mass   I         1506          6109 I  3.532D-03 I
+ I  82 g + g -> Q + Qbar, massive   I        98494        775995 I  2.279D-01 I
+ I                                  I                            I            I
+ ==============================================================================
+
+ ********* Total number of errors, excluding junctions =       50 *************
+ ********* Total number of errors, including junctions =       97 *************
+ ********* Total number of warnings =                        1199 *************
+ ********* Fraction of events that fail fragmentation cuts =  0.00101 *********
+
+
+------------------------------------
+GenXsecAnalyzer:
+------------------------------------
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Overall cross-section summary:
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Process		xsec_before [pb]		passed	nposw	nnegw	tried	nposw	nnegw 	xsec_match [pb]			accepted [%]	 event_eff [%]
+0		2.315e+08 +/- -1.000e+00		100000	100000	0	100000	100000	0	2.315e+08 +/- -1.000e+00		100.0 +/- 0.0	100.0 +/- 0.0
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------- 
+Total		3.395e-313 +/- 6.907e-310		100000	100000	0	100000	100000	0	3.162e-322 +/- 3.162e-322		0.0 +/- -100.0	100.0 +/- 0.0
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Before matching: total cross section = 3.395e-313 +- 6.907e-310 pb
+After matching: total cross section = 3.162e-322 +- 3.162e-322 pb
+Filter efficiency (taking into account weights)= (18) / (100000) = 1.800e-04 +- 4.242e-05
+Filter efficiency (event-level)= (18) / (100000) = 1.800e-04 +- 4.242e-05
+After filter: final cross section = 0.000e+00 +- -nan pb
+ EvtGenProducer terminating ... 

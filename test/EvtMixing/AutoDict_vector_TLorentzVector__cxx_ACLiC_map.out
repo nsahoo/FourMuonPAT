@@ -1,0 +1,4 @@
+ libCore.so libRIO.so libThread.so libMathCore.so libPhysics.so libMatrix.so libMathCore.so
+# Now the list of classes
+vector<TLorentzVector,allocator<TLorentzVector> >
+vector<TLorentzVector,allocator<TLorentzVector> >::iterator

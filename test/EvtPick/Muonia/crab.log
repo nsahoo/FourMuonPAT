@@ -1,0 +1,90 @@
+DEBUG 2016-09-22 15:09:35,299: 	 Executing command: 'status'
+DEBUG 2016-09-22 15:09:35,301: 	 Found CRAB cache file /uscms/home/sdurgut/.crab3
+DEBUG 2016-09-22 15:09:35,325: 	 Checking credentials
+DEBUG 2016-09-22 15:09:35,325: 	 Found proxy file /tmp/x509up_u46497
+DEBUG 2016-09-22 15:09:35,325: 	 Getting proxy life time left
+DEBUG 2016-09-22 15:09:35,528: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u46497 -timeleft
+ output : 85909
+
+ error: 
+ retcode : 0
+DEBUG 2016-09-22 15:09:35,730: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u46497 -actimeleft
+ output : 85909
+
+ error: 
+ retcode : 0
+DEBUG 2016-09-22 15:09:35,731: 	 Proxy valid for 23:51:49 hours
+ERROR 2016-09-22 15:09:35,731: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/sdurgut/SL6/CMSSW_5_3_32/src/Analysis/FourMuonPAT/test/EvtPick/Muonia/crab_pickevents_Muonia2012B
+ERROR 2016-09-22 15:09:35,731: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1608/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1608/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1608/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 321, in __init__
+    self.loadLocalCache(proxyOptsSetPlace)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1608/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 450, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/sdurgut/SL6/CMSSW_5_3_32/src/Analysis/FourMuonPAT/test/EvtPick/Muonia/crab_pickevents_Muonia2012B
+DEBUG 2016-09-22 15:09:57,861: 	 Executing command: 'status'
+DEBUG 2016-09-22 15:09:57,865: 	 Found CRAB cache file /uscms/home/sdurgut/.crab3
+DEBUG 2016-09-22 15:09:57,901: 	 Checking credentials
+DEBUG 2016-09-22 15:09:57,902: 	 Found proxy file /tmp/x509up_u46497
+DEBUG 2016-09-22 15:09:57,902: 	 Getting proxy life time left
+DEBUG 2016-09-22 15:09:58,104: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u46497 -timeleft
+ output : 85886
+
+ error: 
+ retcode : 0
+DEBUG 2016-09-22 15:09:58,307: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u46497 -actimeleft
+ output : 85886
+
+ error: 
+ retcode : 0
+DEBUG 2016-09-22 15:09:58,307: 	 Proxy valid for 23:51:26 hours
+ERROR 2016-09-22 15:09:58,308: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/sdurgut/SL6/CMSSW_5_3_32/src/Analysis/FourMuonPAT/test/EvtPick/Muonia/crab_pickevents_Muonia2012A
+ERROR 2016-09-22 15:09:58,308: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1608/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1608/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1608/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 321, in __init__
+    self.loadLocalCache(proxyOptsSetPlace)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1608/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 450, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/sdurgut/SL6/CMSSW_5_3_32/src/Analysis/FourMuonPAT/test/EvtPick/Muonia/crab_pickevents_Muonia2012A
+DEBUG 2016-09-22 15:17:56,617: 	 Executing command: 'status'
+DEBUG 2016-09-22 15:17:56,618: 	 Found CRAB cache file /uscms/home/sdurgut/.crab3
+DEBUG 2016-09-22 15:17:56,625: 	 Checking credentials
+DEBUG 2016-09-22 15:17:56,626: 	 Found proxy file /tmp/x509up_u46497
+DEBUG 2016-09-22 15:17:56,626: 	 Getting proxy life time left
+DEBUG 2016-09-22 15:17:56,728: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u46497 -timeleft
+ output : 85408
+
+ error: 
+ retcode : 0
+DEBUG 2016-09-22 15:17:56,831: 	 Executing : 
+ command : voms-proxy-info -file /tmp/x509up_u46497 -actimeleft
+ output : 85408
+
+ error: 
+ retcode : 0
+DEBUG 2016-09-22 15:17:56,831: 	 Proxy valid for 23:43:28 hours
+ERROR 2016-09-22 15:17:56,832: 	 Cannot find .requestcache file in CRAB project directory /uscms_data/d3/sdurgut/SL6/CMSSW_5_3_32/src/Analysis/FourMuonPAT/test/EvtPick/Muonia/crab_pickevents_Muonia2012D
+ERROR 2016-09-22 15:17:56,832: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1608/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1608/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1608/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 321, in __init__
+    self.loadLocalCache(proxyOptsSetPlace)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1608/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 450, in loadLocalCache
+    raise ex
+CachefileNotFoundException: Cannot find .requestcache file in CRAB project directory /uscms_data/d3/sdurgut/SL6/CMSSW_5_3_32/src/Analysis/FourMuonPAT/test/EvtPick/Muonia/crab_pickevents_Muonia2012D

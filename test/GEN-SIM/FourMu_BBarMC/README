@@ -1,0 +1,25 @@
+Hi Suleyman,
+
+You also repeated the 1.3E-4 filter efficiency with the J/psi decays on, more or less.
+
+In the original sample consisting of 10M bbbar events the fraction of these without J/pis decays  is 0.47/1.3 = 0.36, so 3.6M events. Of these .41/3.9 = 0.1 (360000) have just one bbbar pair and the other 90% have more than one pair.
+
+Lenny
+
+Durgut, Suleyman wrote:
+Hi Lenny,
+
+Filter Eff without #B requirement = 4.68E-5
+Filter Eff with #B = 4 : 3.87E-5
+Filter Eff with #B = 2 : 4.1E-6
+
+in all of them Jpsi decays are turned off.
+
+Thanks
+
+
+-------------------------------------------------------------------
+
+
+we have 216 jpsi decays, and 80 semi leptonic decays, number is taken from 2M events. B's tend to decay jpsi more, for more read BPH-17-085
+

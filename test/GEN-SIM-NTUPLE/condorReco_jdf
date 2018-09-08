@@ -1,0 +1,10 @@
+universe = vanilla
+Executable = /uscms_data/d3/sdurgut/SL6/CMSSW_5_3_32/src/Analysis/FourMuonPAT/test/GEN-SIM-NTUPLE/runReco.csh
+Arguments = RUNNO
+Should_Transfer_Files = YES
+WhenToTransferOutput = ON_EXIT
+Output =	/uscms_data/d3/sdurgut/SL6/CMSSW_5_3_32/src/Analysis/FourMuonPAT/test/GEN-SIM-NTUPLE/STDOUT/gen_reco_RUNNO.stdout
+Error = 	/uscms_data/d3/sdurgut/SL6/CMSSW_5_3_32/src/Analysis/FourMuonPAT/test/GEN-SIM-NTUPLE/STDOUT/gen_reco_RUNNO.stderr
+Log = 		/uscms_data/d3/sdurgut/SL6/CMSSW_5_3_32/src/Analysis/FourMuonPAT/test/GEN-SIM-NTUPLE/STDOUT/gen_reco_RUNNO.log
+notification = ERROR
+Queue 1

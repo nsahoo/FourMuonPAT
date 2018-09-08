@@ -1,0 +1,16 @@
+DEBUG 2018-03-16 23:31:15,539: 	 Executing command: 'kill'
+DEBUG 2018-03-16 23:31:15,539: 	 Found CRAB cache file /uscms/home/sdurgut/.crab3
+ERROR 2018-03-16 23:31:15,547: 	 Error: Please indicate the CRAB project directory with --dir=<project-directory>.
+ERROR 2018-03-16 23:31:15,547: 	 Caught exception
+Traceback (most recent call last):
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1803/bin/crab", line 160, in <module>
+    client()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1803/bin/crab", line 146, in __call__
+    self.cmd = sub_cmd(self.logger, args[1:])
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1803/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 259, in __init__
+    self.validateOptions()
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1803/lib/python2.7/site-packages/CRABClient/Commands/kill.py", line 63, in validateOptions
+    SubCommand.validateOptions(self)
+  File "/cvmfs/cms.cern.ch/crab3/slc6_amd64_gcc493/cms/crabclient/3.3.1803/lib/python2.7/site-packages/CRABClient/Commands/SubCommand.py", line 568, in validateOptions
+    raise ex
+MissingOptionException: [91mError[0m: Please indicate the CRAB project directory with --dir=<project-directory>.

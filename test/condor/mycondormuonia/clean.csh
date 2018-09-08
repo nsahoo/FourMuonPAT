@@ -1,0 +1,9 @@
+rm condor_treewriter_*
+rm Run_*
+rm myARCoutNTightMu*
+rm myARCoutNmuTCHG*
+rm myJYfor*
+rm myfourmuon*
+rm output_*
+rm runJobs_*
+rm runOnCondor_*
